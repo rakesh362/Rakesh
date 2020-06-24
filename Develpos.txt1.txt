@@ -1,0 +1,132 @@
+
+
+1.  whoami 
+
+2. pwd ---present workind directory
+
+3. ls ---->list of directories.
+
+4. ls -lrt ---> It will give u in time orders long reverse time.
+
+5. su - .....>How to login as a root su means switch user.
+                  give password root password.
+
+6.  $---> normal user  , # --> root user.
+
+7. why we want to login as a root for some of the commands we need to login as a root.
+
+8. mkdir  directory name ---> create a directory. example mkdir kiran 
+
+9. cd kiran change directoy .
+
+10. mkdir multiple directory creation ----> example mkdir dir1 dir2 dir3 dir4 dir5
+
+11. cd dir2 --> to go to any directory.
+
+12. root@locathost dir2 # pwd ---> to check the path.
+
+13. root@localhost dir2# cd .. to come out of that directory.
+
+14. mkdir -p  1/2/3/4/5  -->to create a directories inside directory p-parent.
+
+15. cd ../.. --> to come out two directories before.
+
+16. cd - --> to go to the most recent directory.
+
+17. find . -type f -name "file name"  to find the file inside current directory.
+
+18. find / -type f -name "file name" to search the file in whole system.
+
+19. find / -type f -name "file  name* to find the file starting with the same file.
+
+20. find / -type d -name "file  name* to find the directories.
+
+21. gzip file name  to compress a file compress means to reduce the file.
+
+22. gunzip file name to uncompress a file.
+
+23. tar -cvzf ex.tar file/dir --> compress a files/dir  in another format.
+
+24. rm -rf file name delet the file/dir.
+
+25. tar -xvzf ex.tar extract the file/dir.
+
+26. df -h --> how to check the system utilization in whole system.
+
+27. du -sh --> search for specific directory utization.
+
+28. ps -ef ---> to check the all process running.
+
+29. ps -ef  >>suresh  ---> process is pf  ef- entire format (to creat the output of any file.)
+
+30. netstat -anlp ---> to check the port numbers availabilty.
+
+31. find / -type f -name "file name" -exec rm -rf {} \; to search for the file and delete the file.
+
+32. find / -name "kiran" search for the file/dir .
+
+33.find / -type f -name "file name" -exec grep {} \; 
+
+34. find / -type f -mtime +20  -name "file name" -exec tar -cvzf  tar file name {} \; 
+ 
+35.  sed -n '2,5 p ' file---full second line to 5th line print
+
+
+
+2. sed - n ' 2p; 5p' type---only second and fifth line will print.
+
+3. sed -i '2.5d' file
+
+4. sed - I '5/ which/what/g' file---changing which word  to what word.
+
+5. wc file-----word count--lines, word ,charater will display.
+
+6. ps -ef | grep ssh---search oly ssh
+
+7. ps -ef | grep drwx---search for the directories
+
+8. ssh user@ip--connect linux to another linux
+
+9. SCP user@ip : / src/path user@ip : / ip:/dest/path---copy connect linux machine to another linux
+
+10. wget url--to download any content from internet
+
+11. yum install git---install any software
+
+12. yum remove git----remove the software
+
+13. rpm -ivh file.rpm----to install the packages rpm--redhat package manager
+
+ 14. useradd anyname--creating user
+
+15. userdel anyname---delete user
+
+16. cat /etc/passwd--check the user
+
+17. systemctl start/stop httpd--start and stop services
+
+18. top---cpu utilzation and memory and sytem ultization
+
+19. free-m----ram utlitization
+
+20. kill -9 pid---kill the particular service
+
+21. groupadd groupname----adding group
+
+22. cat /etc/group---checking group
+
+23. user add -G groupname username----adding user to group
+
+24. head -10 file-----------print first 10 lines
+
+25. tail file--------------print last 10 lines
+
+
+
+
+
+
+
+
+
+
